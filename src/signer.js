@@ -16,7 +16,7 @@ function serializeBigInt(i) {
 export function GenerateSigningMessages(
   tx,
   inputCells,
-  { validateTransaction: true } = {}
+  { validateTransaction = true } = {}
 ) {
   if (validateTransaction) {
     ValidateTransaction(tx);
