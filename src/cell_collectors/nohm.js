@@ -237,7 +237,8 @@ LiveCellClass.definitions = {
     type: "string"
   },
   [KEY_DATA_LENGTH]: {
-    type: "integer"
+    type: "integer",
+    index: true
   },
   [KEY_LOCK_ARGS]: {
     type: "string",
